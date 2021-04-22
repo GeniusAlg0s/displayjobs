@@ -66,7 +66,7 @@ function displayJobs(data) {
 
     // box.appendChild(name);
     box.appendChild(innerbox);
-    contains.setAttribute("style", "display: flex, flex-wrap: wrap");
+    // contains.setAttribute("style", "display: flex, flex-wrap: wrap");
     contains.appendChild(box);
   });
 }
