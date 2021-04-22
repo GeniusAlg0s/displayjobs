@@ -62,10 +62,11 @@ function displayJobs(data) {
 
     box.setAttribute("class", "card");
     box.setAttribute("style", "width: 18rem;");
+    box.setAttribute("id", "sowat");
 
     // box.appendChild(name);
     box.appendChild(innerbox);
-
+    contains.setAttribute("style", "display: flex, flex-wrap: wrap");
     contains.appendChild(box);
   });
 }
