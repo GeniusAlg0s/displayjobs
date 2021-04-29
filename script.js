@@ -32,6 +32,7 @@ function displayJobs(data) {
   const contains = document.getElementById("cards_container");
 
   data.forEach((element) => {
+    console.log(element);
     let name = document.createElement("h1");
     name.innerHTML = element.title;
     name.setAttribute("class", "card-title");
